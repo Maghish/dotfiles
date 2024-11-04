@@ -25,13 +25,13 @@ export NVM_DIR="$HOME/.nvm"
 desk() {
     case $1 in
         red)
-            wal -i /mnt/e/photos/desktopmodes/darkmode.png
+            wal -a 50 -i /mnt/e/photos/desktopmodes/darkmode.png
             ;;
         darkg)
-            wal -i /mnt/e/photos/desktopmodes/darkgreenmode.png
+            wal -a 50 -i /mnt/e/photos/desktopmodes/darkgreenmode.png
             ;;
         green)
-            wal -i /mnt/e/photos/desktopmodes/greenmode.png
+            wal -a 50 -i /mnt/e/photos/desktopmodes/greenmode.png
             ;;
         *)
             echo "Usage: desk {red|darkg|green}"
