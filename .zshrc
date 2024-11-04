@@ -13,6 +13,9 @@ plugins=(git)
 # *** Initialize oh-my-zsh ***
 source $ZSH/oh-my-zsh.sh 
 
+# *** Aliases ***
+alias dotsync="source dotsync.sh"
+
 # *** NVM ***
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
