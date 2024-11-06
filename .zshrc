@@ -43,9 +43,3 @@ desk() {
 
 # *** ZSH Autosuggestions ***
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-# *** Initial Commands ***
-desk red 
-clear
-neofetch
-
